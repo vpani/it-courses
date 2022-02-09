@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <style>
+    table, th, td {
+      border: 5px ridge gainsboro;
+      padding: 2px;
+      border-collapse: collapse;
+    }
+    tr {height:40px}
+  </style>
+</head>
+<body>
+<form action="" method="get">
+<table>
+<tr>
+  <td colspan="3" style="padding-left:100px">
+    <span style="padding-left:80px">Pizza Shop 2.0</span>
+  </td>
+</tr>
+  <tr>
+    <td style="padding-right: 80px">Name</td>
+    <td style="padding-right: 150px">
+     <input type="text" id="name">
+    </td>
+  </tr>
+  <tr>
+    <td>Pizza Topping</td>
+    <td>
+      <input type="radio">Supreme <br>
+      <input type="radio">Vegetarian <br>
+      <input type="radio">Hawaiian
+    </td>
+    <tr>
+  <td>Pizza Sauce</td>
+  <td>
+    <select name="souce" id="text">
+      <option value="tomato">Tomato</option>
+      <option value="chesse"> Cheese</option>
+    <option value="garlic">Garlic</option>
+    </select>
+  </td>
+</tr>
+  <tr>
+    <td>Optinal Extras</td>
+    <td>
+      <input type="checkbox">Extra Cheese
+      <input type="checkbox">Gluten Free Base
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <label for="text"> Delivery Instruction:</label>
+      <br>
+      <textarea name="name" id="textarea" cols="60" rows="5">
+      </textarea>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+<button type="reset">Send me Order</button>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
