@@ -1,0 +1,9 @@
+div button {
+  background-color: #F8F8FF;
+  border: 1px solid darkgrey;
+  border-radius: 20%;
+  margin: 2px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}

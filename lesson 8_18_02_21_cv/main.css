@@ -1,0 +1,105 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #444444;
+  color: white;
+  height: 200px;
+  margin: -5px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+
+.name {
+  padding-left: 20px;
+  font-size: small;
+  border-top: 1px white solid;
+  width: 7%;
+  padding-top: 20px;
+  margin-left: 666px;
+}
+
+aside {
+  background-color: #eee5e6;
+  width: 20%;
+  height: 400%;
+  position: relative;
+  bottom: 150px;
+  margin-left: 30px;
+}
+
+.avatar img {
+  margin: 25px;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  margin: 20px;
+  position: inherit;
+}
+
+.gg-phone {
+  margin-top: 10px;
+}
+
+.education {
+  margin: 20px;
+  position: inherit;
+}
+
+.expertise {
+  margin: 20px;
+  position: inherit;
+}
+
+.info {
+  position: absolute;
+  left: 25%;
+  bottom: -90%;
+  width: 70%;
+}
+
+.text {
+  text-align: center;
+  padding: 4px 200px;
+  background-color: #eee5e6;
+}
+
+.text-table {
+  text-align: center;
+  padding: 4px 200px;
+  background-color: #eee5e6;
+}
+
+.name td {
+  height: 30px;
+}
+
+.name-first {
+  height: 30px;
+}
+
+tr td:first-child {
+  width: 120px;
+  font-weight: bolder;
+  color: #707070;
+  padding-right: 10px;
+}
+
+#lorem1, #lorem2, #lorem3 {
+  text-align: justify
+}
+
+#poem {
+  text-align: justify;
+}
