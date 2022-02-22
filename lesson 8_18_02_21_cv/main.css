@@ -63,10 +63,10 @@ aside {
 }
 
 .info {
-  position: absolute;
-  left: 25%;
-  bottom: -90%;
-  width: 70%;
+  float: right;
+  width: 73%;
+  margin-top: -90%;
+  margin-right: 30px;
 }
 
 .text {
