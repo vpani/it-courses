@@ -1,0 +1,135 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  background-color: white;
+  height: 300px;
+}
+
+.blue {
+  background-color: #1c578f;
+  width: 301px;
+  color: white;
+  height: 50px;
+  padding-left: 40px;
+  margin-top: -20px;
+}
+
+.blue1 {
+  background-color: #1d6eb8;
+  width: 301px;
+  color: white;
+  height: 50px;
+  padding-left: 40px;
+  margin-top: -18px;
+}
+
+.blue2 {
+  background-color: #1d8cd4;
+  width: 301px;
+  color: white;
+  height: 50px;
+  padding-left: 40px;
+  margin-top: -18px;
+}
+
+.info {
+  background-color: #e0e1e3;
+  width: 341px;
+  height: 1000px;
+  padding-top: 10px;
+}
+
+.info h2 {
+  padding-left: 30px;
+}
+
+table {
+  width: 300px;
+  margin-top: -6px;
+  margin-bottom: 6px;
+}
+
+table td {
+  height: 20px;
+}
+
+.col2 {
+  background-color: #ffffff;
+  width: 900px
+}
+
+h1 {
+  color: #1b9ee4;
+  letter-spacing: 5px;
+  margin-left: 20px;
+}
+
+.ux {
+  letter-spacing: 4px;
+  margin-left: 20px;
+}
+
+.reference h3 {
+  margin-left: 5px;
+}
+
+.col2, p {
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.experience {
+  background-color: #e1e1e3;
+  margin-left: -10px;
+  padding: 1px 0px 1px 30px;
+}
+
+#ex {
+  width: 800px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#ex, td {
+  width: 850px;
+}
+
+.education {
+  background-color: #e1e1e3;
+  margin-left: -10px;
+  padding: 1px 0px 1px 30px;
+}
+
+#ed {
+  width: 800px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#ed, td {
+  width: 850px;
+}
+
+.hobbies {
+  background-color: #e1e1e3;
+  margin-left: -10px;
+  padding: 1px 0px 1px 30px;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 20px;
+  font-weight: bold;
+}
+
+.i1, .i2, .i3, .i4, .i5 {
+  margin: 0px 40px;
+}
